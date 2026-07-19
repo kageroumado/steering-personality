@@ -1,5 +1,8 @@
 # Reading Personality Off the Steering Geometry of a Language Model
 
+[![Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21441021.svg)](https://doi.org/10.5281/zenodo.21441021)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Research code and data for the preprint **_Reading Personality Off the Steering Geometry of a
 Language Model_** (Mado Kagerou, 2026).
 
@@ -11,6 +14,7 @@ across a second instrument and a cross-language model swap, yet align to the Big
 random relabeling — and survive a permutation null that rules out the construction-artifact reading.
 
 - **Paper / DOI:** [10.5281/zenodo.21440937](https://doi.org/10.5281/zenodo.21440937)
+- **Code archive / DOI:** [10.5281/zenodo.21441021](https://doi.org/10.5281/zenodo.21441021)
 - **Human criterion-validation:** the question of whether this model-internal structure organizes
   *people* is a separate, pre-registered study. Human responses are collected anonymously and are **not**
   in this repository.
@@ -86,6 +90,8 @@ cross-language control uses `tokyotech-llm/Llama-3.1-Swallow-8B-v0.2`.
   url    = {https://doi.org/10.5281/zenodo.21440937}
 }
 ```
+
+To cite the code archive specifically, use its DOI: [10.5281/zenodo.21441021](https://doi.org/10.5281/zenodo.21441021).
 
 ## License
 
