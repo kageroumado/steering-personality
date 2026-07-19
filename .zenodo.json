@@ -1,0 +1,32 @@
+{
+  "title": "Reading Personality Off the Steering Geometry of a Language Model: code and data",
+  "upload_type": "software",
+  "description": "Research code and data for the preprint \"Reading Personality Off the Steering Geometry of a Language Model\" (Mado Kagerou, 2026). Recovers a personality trait structure from inside Llama-3.1-8B by factor-analyzing 27 contrastive activation steering directions across 409 personas, scored through a bias-cancelling pole-contrast readout. Includes the extraction and factor-analysis pipeline, the frozen 27-facet (D27) instrument, the extracted steering directions, the permutation-null and convergent-validity controls, and the per-experiment result files behind the paper's figures. No human data is included.",
+  "creators": [
+    {
+      "name": "Kagerou, Mado",
+      "orcid": "0009-0005-5962-9254",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "large language models",
+    "interpretability",
+    "activation steering",
+    "representation engineering",
+    "personality",
+    "factor analysis",
+    "persona vectors",
+    "psychometrics",
+    "Llama-3.1"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21440937",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}

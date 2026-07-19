@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the preprint below."
+title: "Reading Personality Off the Steering Geometry of a Language Model"
+authors:
+  - family-names: Kagerou
+    given-names: Mado
+    orcid: "https://orcid.org/0009-0005-5962-9254"
+    affiliation: "Independent Researcher"
+license: MIT
+repository-code: "https://github.com/kageroumado/steering-personality"
+preferred-citation:
+  type: article
+  title: "Reading Personality Off the Steering Geometry of a Language Model"
+  authors:
+    - family-names: Kagerou
+      given-names: Mado
+      orcid: "https://orcid.org/0009-0005-5962-9254"
+  year: 2026
+  notes: "Preprint"
+  doi: "10.5281/zenodo.21440937"
+  url: "https://doi.org/10.5281/zenodo.21440937"
