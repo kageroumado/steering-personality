@@ -1,0 +1,54 @@
+{
+  "test": "permutation_null",
+  "B": 2000,
+  "X_shape": [
+    409,
+    27
+  ],
+  "K": 5,
+  "observed": {
+    "split_half": 0.8829,
+    "vs_bigfive": 0.3223,
+    "parallel_K": 5
+  },
+  "null_column_permutation": {
+    "observed": 0.8829,
+    "null_mean": 0.2772,
+    "null_sd": 0.0414,
+    "null_p95": 0.3474,
+    "null_p99": 0.3771,
+    "null_max": 0.4557,
+    "null_min": 0.1586,
+    "z": 14.63,
+    "p_empirical": 0.0,
+    "p_reported": "<5e-04",
+    "parallel_K_ge5_frac": 0.03,
+    "parallel_K_mean": 1.76
+  },
+  "null_gaussian": {
+    "observed": 0.8829,
+    "null_mean": 0.2768,
+    "null_sd": 0.0415,
+    "null_p95": 0.3456,
+    "null_p99": 0.3872,
+    "null_max": 0.4356,
+    "null_min": 0.1506,
+    "z": 14.61,
+    "p_empirical": 0.0,
+    "p_reported": "<5e-04"
+  },
+  "null_bigfive_labels": {
+    "observed": 0.3223,
+    "null_mean": 0.2576,
+    "null_sd": 0.0433,
+    "null_p95": 0.3327,
+    "null_p99": 0.3601,
+    "null_max": 0.4192,
+    "null_min": 0.1244,
+    "z": 1.49,
+    "p_empirical": 0.923,
+    "p_reported": 0.923,
+    "max_under_random_relabel": 0.4192
+  },
+  "verdict": "STRUCTURE REAL \u2014 split-half 0.883 exceeds both nulls (p<1/B); parallel analysis recovers >=5 factors essentially never under the column null; vs-BigFive 0.322 sits in the random-label band, i.e. ~orthogonal to Big Five"
+}

@@ -1,0 +1,7 @@
+# Python 3.10+
+torch>=2.1
+transformers>=4.44
+numpy>=1.26
+scipy>=1.11
+matplotlib>=3.8
+repeng>=0.4

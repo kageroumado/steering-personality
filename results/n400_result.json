@@ -1,0 +1,105 @@
+{
+  "iter": 22,
+  "stage": "native_model_n400",
+  "N": 409,
+  "K_parallel": 5,
+  "K_used": 5,
+  "split_half_n200": 0.77,
+  "split_half_n400": 0.883,
+  "vs_bigfive_n200": 0.346,
+  "vs_bigfive_n400": 0.322,
+  "structure_held_vs_n200": 0.927,
+  "structure_held_pairs": [
+    0.961,
+    0.949,
+    0.929,
+    0.924,
+    0.871
+  ],
+  "core_alpha_n400": [
+    0.862,
+    0.841,
+    0.841
+  ],
+  "tail_alpha_n200": [
+    0.65,
+    0.6
+  ],
+  "tail_alpha_n400": [
+    0.667,
+    0.681
+  ],
+  "mean_alpha_n400": 0.778,
+  "factor_top_facets": [
+    {
+      "F": 1,
+      "var": 0.249,
+      "alpha": 0.862,
+      "pos": [
+        "EasyGoingness"
+      ],
+      "neg": [
+        "AttentionSeeking",
+        "Sociability",
+        "Charisma"
+      ]
+    },
+    {
+      "F": 2,
+      "var": 0.246,
+      "alpha": 0.841,
+      "pos": [
+        "Humor",
+        "EmotionalExpressiveness",
+        "Creativity",
+        "Introspection"
+      ],
+      "neg": [
+        "Authoritarianism",
+        "EmotionalStability",
+        "Conservatism"
+      ]
+    },
+    {
+      "F": 3,
+      "var": 0.207,
+      "alpha": 0.841,
+      "pos": [
+        "Perfectionism",
+        "Order",
+        "SelfControl"
+      ],
+      "neg": [
+        "Trust",
+        "Intellect",
+        "Impulsivity"
+      ]
+    },
+    {
+      "F": 4,
+      "var": 0.157,
+      "alpha": 0.667,
+      "pos": [
+        "Irritability",
+        "Anxiety"
+      ],
+      "neg": [
+        "WellBeing",
+        "Adaptability",
+        "EasyGoingness"
+      ]
+    },
+    {
+      "F": 5,
+      "var": 0.14,
+      "alpha": 0.681,
+      "pos": [],
+      "neg": [
+        "Honesty",
+        "ArtAppreciation",
+        "Compassion"
+      ]
+    }
+  ],
+  "verdict": "STABILIZED \u2014 5-factor replicable"
+}

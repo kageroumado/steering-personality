@@ -1,0 +1,80 @@
+{
+  "stage": "compare_models",
+  "big5_divergence": {
+    "llama": {
+      "fc": 0.347,
+      "spi": 0.32865445023755036,
+      "spi_fc": 0.3469779292153155
+    },
+    "swallow": {
+      "fc": 0.40020000000000006,
+      "spi": 0.34446069178975824,
+      "spi_fc": 0.3183227585555916
+    }
+  },
+  "cross_model_structure_congruence": 0.9025310128728169,
+  "convergent_r_mean": {
+    "llama": 0.5454822979391228,
+    "swallow": 0.5961639251236655
+  },
+  "convergent_profile_corr": 0.825285373392688,
+  "culture_profile_corr": 0.9627866555411329,
+  "culture_shift": {
+    "Compassion": -0.035574905378812804,
+    "Trust": 0.9671397642876199,
+    "Honesty": 0.23574191993945798,
+    "Conservatism": -0.23830666948998824,
+    "Authoritarianism": -0.2499535255732106,
+    "EasyGoingness": 0.14463165198926642,
+    "Perfectionism": -0.11966979378801061,
+    "Order": 0.19536514567339203,
+    "Industry": -0.20816514153555,
+    "Impulsivity": -0.4728871380513178,
+    "SelfControl": 0.1293892266497333,
+    "EmotionalStability": -0.11967780647380533,
+    "Anxiety": 0.0661717774413979,
+    "Irritability": -0.07769701225319359,
+    "WellBeing": -0.02029144124257698,
+    "EmotionalExpressiveness": 0.17220525273884035,
+    "Sociability": 0.35404625250881905,
+    "Adaptability": -0.27033736244950224,
+    "Charisma": 0.16791412578256182,
+    "Humor": -0.18238656780650786,
+    "AttentionSeeking": -0.20236144932739686,
+    "SensationSeeking": -0.1282717125732462,
+    "Conformity": -0.25561258836776046,
+    "Introspection": 0.27910025434765195,
+    "ArtAppreciation": 0.07167642248071648,
+    "Creativity": -0.10553457771616936,
+    "Intellect": -0.09665410181240197
+  },
+  "facet_order": [
+    "Compassion",
+    "Trust",
+    "Honesty",
+    "Conservatism",
+    "Authoritarianism",
+    "EasyGoingness",
+    "Perfectionism",
+    "Order",
+    "Industry",
+    "Impulsivity",
+    "SelfControl",
+    "EmotionalStability",
+    "Anxiety",
+    "Irritability",
+    "WellBeing",
+    "EmotionalExpressiveness",
+    "Sociability",
+    "Adaptability",
+    "Charisma",
+    "Humor",
+    "AttentionSeeking",
+    "SensationSeeking",
+    "Conformity",
+    "Introspection",
+    "ArtAppreciation",
+    "Creativity",
+    "Intellect"
+  ]
+}

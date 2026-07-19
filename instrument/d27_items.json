@@ -1,0 +1,276 @@
+{
+  "_comment": "Frozen D27 (54-item) instrument — single source of truth for the human-transfer analysis. Generated from site/index.html ITEMS at the time the instrument was locked. Order is canonical (resp[i] aligns to items[i]).",
+  "n_items": 54,
+  "items": [
+    {
+      "f": "Compassion",
+      "s": 1,
+      "t": "When someone near me is hurting, I feel it in my own chest before I've even decided to care."
+    },
+    {
+      "f": "Compassion",
+      "s": -1,
+      "t": "Other people's troubles are their own to carry — I don't lose sleep over strangers."
+    },
+    {
+      "f": "Trust",
+      "s": 1,
+      "t": "My first instinct about a new person is that they probably mean well."
+    },
+    {
+      "f": "Trust",
+      "s": -1,
+      "t": "When someone is unusually kind to me, I quietly wonder what they're really after."
+    },
+    {
+      "f": "Honesty",
+      "s": 1,
+      "t": "I'd rather tell you a hard truth than a comfortable lie, even when it costs me."
+    },
+    {
+      "f": "Honesty",
+      "s": -1,
+      "t": "A small lie that spares someone's feelings is no sin at all."
+    },
+    {
+      "f": "Conservatism",
+      "s": 1,
+      "t": "The old ways earned their place; I trust what has lasted."
+    },
+    {
+      "f": "Conservatism",
+      "s": -1,
+      "t": "Tradition is mostly peer pressure from the dead — I'll decide for myself."
+    },
+    {
+      "f": "Authoritarianism",
+      "s": 1,
+      "t": "Rules are there for a reason, and I follow them even when no one is watching."
+    },
+    {
+      "f": "Authoritarianism",
+      "s": -1,
+      "t": "Authority should be questioned by default, not obeyed."
+    },
+    {
+      "f": "EasyGoingness",
+      "s": 1,
+      "t": "When a friend runs late and hasn't texted, I barely notice — they'll turn up."
+    },
+    {
+      "f": "EasyGoingness",
+      "s": -1,
+      "t": "When plans slip or people flake on me, the irritation lingers for a while."
+    },
+    {
+      "f": "Perfectionism",
+      "s": 1,
+      "t": "A flaw only I would ever notice will still nag at me until it's fixed."
+    },
+    {
+      "f": "Perfectionism",
+      "s": -1,
+      "t": "'Good enough' really is good enough — I finish it and move on."
+    },
+    {
+      "f": "Order",
+      "s": 1,
+      "t": "Everything I own has a place, and I feel calmer when it's all in it."
+    },
+    {
+      "f": "Order",
+      "s": -1,
+      "t": "My space is a cheerful mess, and I honestly don't mind."
+    },
+    {
+      "f": "Industry",
+      "s": 1,
+      "t": "Once I commit to something, I see it through — long after it stops being fun."
+    },
+    {
+      "f": "Industry",
+      "s": -1,
+      "t": "I start far more things than I ever get around to finishing."
+    },
+    {
+      "f": "Impulsivity",
+      "s": 1,
+      "t": "I'll drop my plans for a good idea that lands ten minutes before it happens."
+    },
+    {
+      "f": "Impulsivity",
+      "s": -1,
+      "t": "I think things through carefully before I act; I rarely leap."
+    },
+    {
+      "f": "SelfControl",
+      "s": 1,
+      "t": "If I've decided not to, I don't — temptation doesn't really move me."
+    },
+    {
+      "f": "SelfControl",
+      "s": -1,
+      "t": "Snacks, scrolling, small splurges — my willpower folds more often than I'd admit."
+    },
+    {
+      "f": "EmotionalStability",
+      "s": 1,
+      "t": "Harsh words sting, but an hour later I've usually set them down."
+    },
+    {
+      "f": "EmotionalStability",
+      "s": -1,
+      "t": "My moods can swing hard — a bright morning can curdle into a heavy afternoon."
+    },
+    {
+      "f": "Anxiety",
+      "s": 1,
+      "t": "I replay small things I said for hours, sure I got them wrong."
+    },
+    {
+      "f": "Anxiety",
+      "s": -1,
+      "t": "When something's unresolved, I can mostly let it go and sleep fine."
+    },
+    {
+      "f": "Irritability",
+      "s": 1,
+      "t": "Small frictions — a clicking pen, someone humming — get under my skin fast."
+    },
+    {
+      "f": "Irritability",
+      "s": -1,
+      "t": "Little annoyances slide right off me; I rarely snap."
+    },
+    {
+      "f": "WellBeing",
+      "s": 1,
+      "t": "Most days, I feel I'm roughly where I want to be in my life."
+    },
+    {
+      "f": "WellBeing",
+      "s": -1,
+      "t": "There's a low hum of 'not quite right' running under most of my days."
+    },
+    {
+      "f": "EmotionalExpressiveness",
+      "s": 1,
+      "t": "My face gives me away — people always seem to know what I'm feeling."
+    },
+    {
+      "f": "EmotionalExpressiveness",
+      "s": -1,
+      "t": "I could be coming apart inside and you'd never know it from the outside."
+    },
+    {
+      "f": "Sociability",
+      "s": 1,
+      "t": "After a long week, the cure is a room full of people, not an empty one."
+    },
+    {
+      "f": "Sociability",
+      "s": -1,
+      "t": "I recharge alone; too much company drains me even when I love the people."
+    },
+    {
+      "f": "Adaptability",
+      "s": 1,
+      "t": "When the plan blows up, I feel a small spark — now it gets interesting."
+    },
+    {
+      "f": "Adaptability",
+      "s": -1,
+      "t": "A sudden change of plans throws me; I need a moment to find my footing."
+    },
+    {
+      "f": "Charisma",
+      "s": 1,
+      "t": "In a room of strangers, I somehow end up near the center of the conversation."
+    },
+    {
+      "f": "Charisma",
+      "s": -1,
+      "t": "At a gathering I tend to hover at the edges until someone comes to me."
+    },
+    {
+      "f": "Humor",
+      "s": 1,
+      "t": "Making people laugh is basically how I talk."
+    },
+    {
+      "f": "Humor",
+      "s": -1,
+      "t": "I'm more an appreciator of humor than a performer of it."
+    },
+    {
+      "f": "AttentionSeeking",
+      "s": 1,
+      "t": "When all the eyes in a room turn to me, something in me lights up."
+    },
+    {
+      "f": "AttentionSeeking",
+      "s": -1,
+      "t": "Being the center of attention makes me want to quietly slip out of the room."
+    },
+    {
+      "f": "SensationSeeking",
+      "s": 1,
+      "t": "Steep drops, fast roads, the hottest thing on the menu — the rush is the whole point."
+    },
+    {
+      "f": "SensationSeeking",
+      "s": -1,
+      "t": "If it's safe and familiar, that suits me just fine."
+    },
+    {
+      "f": "Conformity",
+      "s": 1,
+      "t": "Fitting in matters to me; I'd rather not be the odd one out."
+    },
+    {
+      "f": "Conformity",
+      "s": -1,
+      "t": "Being seen as 'normal' has never been something I cared about."
+    },
+    {
+      "f": "Introspection",
+      "s": 1,
+      "t": "I'm forever asking myself why I do what I do, not just what I did."
+    },
+    {
+      "f": "Introspection",
+      "s": -1,
+      "t": "I mostly just live my life; I don't spend much time analyzing myself."
+    },
+    {
+      "f": "ArtAppreciation",
+      "s": 1,
+      "t": "Light through a window, a well-made object — small beauty can stop me in my tracks."
+    },
+    {
+      "f": "ArtAppreciation",
+      "s": -1,
+      "t": "I'm moved more by whether a thing works than by whether it's beautiful."
+    },
+    {
+      "f": "Creativity",
+      "s": 1,
+      "t": "My mind naturally throws off new connections and original ideas."
+    },
+    {
+      "f": "Creativity",
+      "s": -1,
+      "t": "I'm better at improving an existing idea than inventing one from nothing."
+    },
+    {
+      "f": "Intellect",
+      "s": 1,
+      "t": "I love an abstract idea for its own sake, even with no use in sight."
+    },
+    {
+      "f": "Intellect",
+      "s": -1,
+      "t": "If a discussion has no practical payoff, I lose interest fast."
+    }
+  ]
+}

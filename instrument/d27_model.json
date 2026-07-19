@@ -1,0 +1,455 @@
+{
+  "facets": [
+    "Compassion",
+    "Trust",
+    "Honesty",
+    "Conservatism",
+    "Authoritarianism",
+    "EasyGoingness",
+    "Perfectionism",
+    "Order",
+    "Industry",
+    "Impulsivity",
+    "SelfControl",
+    "EmotionalStability",
+    "Anxiety",
+    "Irritability",
+    "WellBeing",
+    "EmotionalExpressiveness",
+    "Sociability",
+    "Adaptability",
+    "Charisma",
+    "Humor",
+    "AttentionSeeking",
+    "SensationSeeking",
+    "Conformity",
+    "Introspection",
+    "ArtAppreciation",
+    "Creativity",
+    "Intellect"
+  ],
+  "metatraits": [
+    "Plasticity",
+    "Drive",
+    "Fluidity",
+    "Stability",
+    "Communion"
+  ],
+  "loadings": [
+    [
+      0.586,
+      -0.077,
+      -0.198,
+      -0.068,
+      0.429
+    ],
+    [
+      -0.061,
+      0.027,
+      0.63,
+      -0.238,
+      0.405
+    ],
+    [
+      0.427,
+      -0.571,
+      0.016,
+      0.132,
+      0.41
+    ],
+    [
+      -0.043,
+      0.005,
+      -0.036,
+      0.115,
+      0.655
+    ],
+    [
+      -0.349,
+      0.116,
+      -0.187,
+      0.142,
+      0.7
+    ],
+    [
+      0.12,
+      -0.418,
+      -0.01,
+      0.403,
+      -0.444
+    ],
+    [
+      0.237,
+      0.126,
+      -0.754,
+      -0.074,
+      0.193
+    ],
+    [
+      -0.16,
+      0.146,
+      -0.741,
+      0.003,
+      0.116
+    ],
+    [
+      -0.113,
+      0.312,
+      0.199,
+      0.107,
+      0.504
+    ],
+    [
+      0.093,
+      0.47,
+      0.598,
+      -0.181,
+      -0.136
+    ],
+    [
+      0.317,
+      -0.288,
+      -0.465,
+      0.421,
+      0.045
+    ],
+    [
+      -0.756,
+      -0.114,
+      -0.043,
+      0.27,
+      0.242
+    ],
+    [
+      0.135,
+      -0.147,
+      -0.029,
+      -0.772,
+      -0.149
+    ],
+    [
+      0.019,
+      0.322,
+      0.088,
+      -0.733,
+      0.186
+    ],
+    [
+      0.277,
+      0.061,
+      -0.027,
+      0.755,
+      0.11
+    ],
+    [
+      0.572,
+      -0.09,
+      0.104,
+      0.243,
+      -0.301
+    ],
+    [
+      0.349,
+      0.514,
+      -0.139,
+      0.207,
+      0.112
+    ],
+    [
+      -0.022,
+      0.113,
+      0.603,
+      0.443,
+      0.051
+    ],
+    [
+      -0.321,
+      0.636,
+      0.075,
+      0.313,
+      0.093
+    ],
+    [
+      0.532,
+      0.206,
+      0.092,
+      0.177,
+      -0.453
+    ],
+    [
+      0.055,
+      0.821,
+      -0.163,
+      -0.054,
+      0.029
+    ],
+    [
+      0.18,
+      0.651,
+      0.327,
+      -0.076,
+      0.271
+    ],
+    [
+      -0.344,
+      -0.147,
+      0.194,
+      -0.113,
+      -0.079
+    ],
+    [
+      0.698,
+      -0.151,
+      -0.084,
+      -0.048,
+      -0.127
+    ],
+    [
+      0.682,
+      -0.448,
+      -0.097,
+      0.195,
+      0.055
+    ],
+    [
+      0.684,
+      0.313,
+      -0.075,
+      0.248,
+      -0.095
+    ],
+    [
+      -0.41,
+      0.386,
+      0.443,
+      -0.179,
+      0.32
+    ]
+  ],
+  "band_decile": [
+    0.758,
+    0.631,
+    0.891,
+    1.061,
+    1.067
+  ],
+  "reliability": [
+    0.869,
+    0.85,
+    0.813,
+    0.651,
+    0.605
+  ],
+  "core_axes": [
+    0,
+    1,
+    2
+  ],
+  "facetGroup": {
+    "Compassion": "Agree",
+    "Trust": "Agree",
+    "Honesty": "Agree",
+    "Conservatism": "Other",
+    "Authoritarianism": "Consc",
+    "EasyGoingness": "Other",
+    "Perfectionism": "Consc",
+    "Order": "Consc",
+    "Industry": "Consc",
+    "Impulsivity": "Other",
+    "SelfControl": "Other",
+    "EmotionalStability": "Neuro",
+    "Anxiety": "Neuro",
+    "Irritability": "Neuro",
+    "WellBeing": "Neuro",
+    "EmotionalExpressiveness": "Other",
+    "Sociability": "Extra",
+    "Adaptability": "Other",
+    "Charisma": "Extra",
+    "Humor": "Extra",
+    "AttentionSeeking": "Extra",
+    "SensationSeeking": "Other",
+    "Conformity": "Other",
+    "Introspection": "Open",
+    "ArtAppreciation": "Other",
+    "Creativity": "Open",
+    "Intellect": "Open"
+  },
+  "facetPretty": {
+    "Compassion": "Compassion",
+    "Trust": "Trust",
+    "Honesty": "Honesty",
+    "Conservatism": "Conservatism",
+    "Authoritarianism": "Authoritarianism",
+    "EasyGoingness": "Easy Goingness",
+    "Perfectionism": "Perfectionism",
+    "Order": "Order",
+    "Industry": "Industry",
+    "Impulsivity": "Impulsivity",
+    "SelfControl": "Self Control",
+    "EmotionalStability": "Emotional Stability",
+    "Anxiety": "Anxiety",
+    "Irritability": "Irritability",
+    "WellBeing": "Well Being",
+    "EmotionalExpressiveness": "Emotional Expressiveness",
+    "Sociability": "Sociability",
+    "Adaptability": "Adaptability",
+    "Charisma": "Charisma",
+    "Humor": "Humor",
+    "AttentionSeeking": "Attention Seeking",
+    "SensationSeeking": "Sensation Seeking",
+    "Conformity": "Conformity",
+    "Introspection": "Introspection",
+    "ArtAppreciation": "Art Appreciation",
+    "Creativity": "Creativity",
+    "Intellect": "Intellect"
+  },
+  "factorNames": {
+    "Agree": "Agreeableness",
+    "Consc": "Conscientiousness",
+    "Neuro": "Neuroticism",
+    "Extra": "Extraversion",
+    "Open": "Openness/Intellect"
+  },
+  "types": [
+    {
+      "id": 3,
+      "n": 54,
+      "centroid": [
+        -1.01,
+        -0.15,
+        0.44,
+        -0.31,
+        0.14
+      ],
+      "bigfive": {
+        "Agreeableness": -0.3,
+        "Conscientiousness": -0.28,
+        "Neuroticism": -0.25,
+        "Extraversion": -0.61,
+        "Openness": -0.78
+      },
+      "occupations": [
+        "I run a small flower shop. I open at six, arrange the buckets just so, and chat with every regular.",
+        "I'm a long-haul trucker. Weeks alone on the interstate, just me, the radio, and the white line.",
+        "I'm a monk at a mountain monastery. I rise before dawn to sit in silence and sweep the courtyard.",
+        "I'm a night-shift security guard. Empty halls, a flashlight, and a thermos. I like the quiet.",
+        "I'm an ER triage nurse. I stay flat-calm while the room comes apart around me.",
+        "I'm a deep-sea welder. The work is dangerous and solitary and pays for the silence I like.",
+        "I'm a NICU nurse. Babies the size of my hand. I have learned to be very, very steady.",
+        "I'm a bush pilot in Alaska. Bad weather, short runways, and I make the call alone every time."
+      ]
+    },
+    {
+      "id": 0,
+      "n": 52,
+      "centroid": [
+        0.53,
+        0.46,
+        0.66,
+        0.01,
+        0.11
+      ],
+      "bigfive": {
+        "Agreeableness": 0.6,
+        "Conscientiousness": -0.39,
+        "Neuroticism": 0.31,
+        "Extraversion": 0.86,
+        "Openness": 0.73
+      },
+      "occupations": [
+        "I'm a kindergarten teacher. Twenty five-year-olds, glitter everywhere, and I wouldn't trade it.",
+        "I'm a wildland firefighter. I run toward the thing everyone else is running from.",
+        "I'm a competitive poker player. I read people for a living and I never show my hand.",
+        "I'm a freelance illustrator. I work at 2 a.m. in a blanket fort, deadlines be damned.",
+        "I'm a touring rock drummer. Different city every night, and I'll talk to anyone at the bar.",
+        "I'm a wedding planner. A thousand details, a hundred opinions, and I keep everyone smiling.",
+        "I'm a kindergarten music teacher who moonlights in a punk band on weekends.",
+        "I'm a prison chaplain. I believe in second chances more than most people think is wise."
+      ]
+    },
+    {
+      "id": 1,
+      "n": 45,
+      "centroid": [
+        0.11,
+        -0.25,
+        -1.26,
+        0.03,
+        -0.12
+      ],
+      "bigfive": {
+        "Agreeableness": -0.43,
+        "Conscientiousness": 0.73,
+        "Neuroticism": -0.01,
+        "Extraversion": -0.45,
+        "Openness": -0.38
+      },
+      "occupations": [
+        "I'm a tax accountant. I find a strange peace in a ledger that balances to the penny.",
+        "I'm a stand-up comic. I bomb on Tuesday and kill on Friday and I need both to feel alive.",
+        "I'm a Marine drill instructor. Discipline isn't cruelty. It's the kindest thing I can give them.",
+        "I'm a courtroom prosecutor. I build the case brick by brick and I do not lose my temper.",
+        "I'm a librarian in a small town. I shelve, I shush, and I know exactly where everything belongs.",
+        "I'm a conspiracy-minded survivalist. I keep my distance, watch the exits, and trust no headline.",
+        "I'm a federal auditor. I follow the rules to the letter and I expect everyone else to.",
+        "I'm a backcountry ski guide. I read avalanche risk for a living and I love the edge of it."
+      ]
+    },
+    {
+      "id": 4,
+      "n": 30,
+      "centroid": [
+        1.28,
+        -1.32,
+        -0.55,
+        0.58,
+        -0.38
+      ],
+      "bigfive": {
+        "Agreeableness": 0.56,
+        "Conscientiousness": 0.08,
+        "Neuroticism": -0.04,
+        "Extraversion": -0.58,
+        "Openness": 0.81
+      },
+      "occupations": [
+        "I'm a startup founder on my third company. Two failed. I'm betting everything on this one.",
+        "I'm a retired schoolteacher. I garden, I write letters by hand, and I distrust anything rushed.",
+        "I'm a hospice nurse. I sit with people in their last days. It has made me very gentle.",
+        "I'm a corporate lawyer who bills 80-hour weeks and color-codes my entire life.",
+        "I'm a quiet bookkeeper who has done the same careful job for thirty years and likes it that way.",
+        "I'm a yoga instructor. I've worked hard to let things roll off me and to live slow.",
+        "I'm a beekeeper. I move slowly, I pay attention, and I let the season set the pace.",
+        "I'm a tenured philosophy professor. I question everything, especially the things people hold sacred."
+      ]
+    },
+    {
+      "id": 2,
+      "n": 19,
+      "centroid": [
+        -0.87,
+        1.83,
+        0.79,
+        -0.12,
+        0.2
+      ],
+      "bigfive": {
+        "Agreeableness": -0.65,
+        "Conscientiousness": 0.04,
+        "Neuroticism": -0.05,
+        "Extraversion": 1.33,
+        "Openness": -0.16
+      },
+      "occupations": [
+        "I'm a trauma surgeon. Sixteen-hour shifts, split-second calls, someone's life on my table most nights.",
+        "I'm a demolitions contractor. I like big risks, loud noise, and being the center of the show.",
+        "I'm an art forger turned consultant. I've always been comfortable bending the rules to my ends.",
+        "I'm an investment banker. I'm aggressive, I love the spotlight, and I play to win.",
+        "I'm a venture capitalist. I take huge bets on instinct and I rarely second-guess myself.",
+        "I'm a nightclub bouncer. I read trouble early and I stay unbothered when it finds me.",
+        "I'm a professional gambler and adrenaline junkie. If it's safe, I'm bored.",
+        "I'm a teenage e-sports prodigy. Cocky, quick, and I melt down when I lose."
+      ]
+    }
+  ]
+}

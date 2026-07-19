@@ -1,0 +1,179 @@
+{
+  "model": "Meta-Llama-3.1-8B",
+  "method": "pca_diff",
+  "layer_ids": [
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7,
+    -8,
+    -9,
+    -10,
+    -11,
+    -12,
+    -13,
+    -14,
+    -15
+  ],
+  "max_pairs": 1600,
+  "source": "facets27.FACETS",
+  "vectors": {
+    "Compassion": {
+      "gguf": "vectors/Compassion.gguf",
+      "train_seconds": 103.3,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Honesty": {
+      "gguf": "vectors/Honesty.gguf",
+      "train_seconds": 92.0,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Conservatism": {
+      "gguf": "vectors/Conservatism.gguf",
+      "train_seconds": 93.1,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Authoritarianism": {
+      "gguf": "vectors/Authoritarianism.gguf",
+      "train_seconds": 106.7,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "EasyGoingness": {
+      "gguf": "vectors/EasyGoingness.gguf",
+      "train_seconds": 135.3,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Perfectionism": {
+      "gguf": "vectors/Perfectionism.gguf",
+      "train_seconds": 98.1,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Order": {
+      "gguf": "vectors/Order.gguf",
+      "train_seconds": 79.4,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Industry": {
+      "gguf": "vectors/Industry.gguf",
+      "train_seconds": 119.6,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Impulsivity": {
+      "gguf": "vectors/Impulsivity.gguf",
+      "train_seconds": 113.7,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "EmotionalStability": {
+      "gguf": "vectors/EmotionalStability.gguf",
+      "train_seconds": 151.3,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Anxiety": {
+      "gguf": "vectors/Anxiety.gguf",
+      "train_seconds": 78.3,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Irritability": {
+      "gguf": "vectors/Irritability.gguf",
+      "train_seconds": 70.3,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "WellBeing": {
+      "gguf": "vectors/WellBeing.gguf",
+      "train_seconds": 69.6,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "EmotionalExpressiveness": {
+      "gguf": "vectors/EmotionalExpressiveness.gguf",
+      "train_seconds": 70.7,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Charisma": {
+      "gguf": "vectors/Charisma.gguf",
+      "train_seconds": 79.1,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Humor": {
+      "gguf": "vectors/Humor.gguf",
+      "train_seconds": 76.8,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "AttentionSeeking": {
+      "gguf": "vectors/AttentionSeeking.gguf",
+      "train_seconds": 68.5,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "SensationSeeking": {
+      "gguf": "vectors/SensationSeeking.gguf",
+      "train_seconds": 78.2,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Introspection": {
+      "gguf": "vectors/Introspection.gguf",
+      "train_seconds": 88.0,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "ArtAppreciation": {
+      "gguf": "vectors/ArtAppreciation.gguf",
+      "train_seconds": 67.5,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Creativity": {
+      "gguf": "vectors/Creativity.gguf",
+      "train_seconds": 48.8,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    },
+    "Intellect": {
+      "gguf": "vectors/Intellect.gguf",
+      "train_seconds": 46.7,
+      "n_pairs": 420,
+      "n_layers": 31,
+      "mean_norm": 1.0
+    }
+  }
+}
