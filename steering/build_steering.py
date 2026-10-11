@@ -21,7 +21,7 @@ from administer import (administer_spi, score_scales, load_spi,
                         keyed_items_for, compute_calibration)
 from extract_vectors import build_dataset, FACETS, VEC_DIR
 
-OUT_DIR = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT as OUT_DIR
 BANDS = {"late": list(range(-1, -16, -1)), "mid": list(range(-12, -21, -1))}
 GATE = [-2.0, -1.0, 0.0, 1.0, 2.0]
 ALL = ["SelfControl", "Trust", "Conformity", "Sociability", "Adaptability"]

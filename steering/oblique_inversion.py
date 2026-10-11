@@ -30,7 +30,7 @@ import facets27 as F
 import oblique_items as OI
 from covariance27 import restrict, fit_S, build_bifactor, UNION_BAND, PRIME
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 
 
 def merged_delta(cals):

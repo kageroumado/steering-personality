@@ -32,8 +32,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 RNG = np.random.default_rng(20)
 
 METATRAITS = ["Plasticity", "Drive", "Fluidity", "Stability", "Communion"]

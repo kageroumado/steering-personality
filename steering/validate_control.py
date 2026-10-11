@@ -22,7 +22,7 @@ from common import DEFAULT_MODEL, pick_device
 from fastscore import PrefixScorer
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 METATRAITS = ["Plasticity", "Drive", "Fluidity", "Stability", "Communion"]
 CORE = [0, 1, 2]
 LOAD_THRESH = 0.40

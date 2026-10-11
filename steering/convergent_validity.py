@@ -33,8 +33,7 @@ from administer import (load_spi, ANCHORS, ITEM_FMT, _fewshot_block, score_scale
                         _ev_from_logps, CF_PROBES)
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 MODEL = os.environ.get("PT_MODEL", DEFAULT_MODEL)   # override for second-model replication
 TAG = os.environ.get("PT_TAG", "")                  # output suffix + reads persona_population{TAG}.json
 

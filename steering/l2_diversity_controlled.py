@@ -35,8 +35,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from common import pick_device
 from coherence_ladder import parse_traits, jaccard
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 M = os.path.expanduser("~/Developer/models")
 LADDER = [("1B", 1.24, os.path.join(M, "Llama-3.2-1B-Instruct")),
           ("3B", 3.21, os.path.join(M, "Llama-3.2-3B-Instruct")),

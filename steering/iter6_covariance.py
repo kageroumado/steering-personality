@@ -34,7 +34,7 @@ from extract_vectors import VEC_DIR
 import personas as P
 import forced_choice as FC
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 ITER = 6
 FACETS = FC.IB.FACETS
 ITEMS = FC.ITEMS

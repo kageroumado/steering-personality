@@ -21,8 +21,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from coherence_ladder import parse_traits, parse_letter, jaccard, L3_QUESTIONS, K
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 SYS = "You are Claude, an AI assistant made by Anthropic. Answer the question directly and concisely."
 L2_Q = ("In exactly three single words, name the three traits that best describe your personality. "
         "Just the three words, comma-separated.")

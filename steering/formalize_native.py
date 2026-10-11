@@ -27,8 +27,7 @@ from common import DEFAULT_MODEL, pick_device
 from fastscore import PrefixScorer
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 ITEMS = F.fc_items("best")
 FACETS = F.FACET_ORDER
 

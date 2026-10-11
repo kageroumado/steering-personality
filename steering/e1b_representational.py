@@ -32,9 +32,7 @@ from common import pick_device
 from extract_vectors import build_dataset, LAYER_IDS, VEC_DIR
 import facets27 as F
 
-REPO = os.path.expanduser("~/Developer/personality-test-27d")
-OUT = os.path.join(REPO, "research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import REPO, OUT, FIGS
 INST_VEC_DIR = os.path.join(REPO, "steering/vectors_instruct")
 MODEL = os.path.expanduser(os.environ.get("PT_MODEL", "Meta-Llama-3.1-8B-Instruct"))
 HEADLINE_LAYER = 13

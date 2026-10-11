@@ -19,7 +19,7 @@ from common import DEFAULT_MODEL, pick_device
 from administer import administer_spi, score_scales, load_spi, keyed_items_for, compute_calibration
 from extract_vectors import LAYER_IDS, VEC_DIR
 
-OUT_DIR = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT as OUT_DIR
 # Sweep sits inside the validated linear regime: SelfControl calib (RUN -03) is monotonic
 # on [-2.5,+2] and saturates/collapses beyond (k=-4→floor, k≥3→blowup). §14.1.
 DEFAULT_SWEEP = [-2.0, -1.0, 0.0, 1.0, 2.0]

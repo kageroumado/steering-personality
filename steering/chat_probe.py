@@ -26,7 +26,7 @@ from common import pick_device
 from fastscore import PrefixScorer
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 MODEL = os.path.expanduser(os.environ.get("PT_MODEL", "Meta-Llama-3.1-8B-Instruct"))
 
 

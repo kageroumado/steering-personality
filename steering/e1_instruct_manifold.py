@@ -28,9 +28,7 @@ from common import pick_device
 from fastscore import PrefixScorer
 import facets27 as F
 
-REPO = os.path.expanduser("~/Developer/personality-test-27d")
-OUT = os.path.join(REPO, "research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import REPO, OUT, FIGS
 CKPT = os.path.join(OUT, "e1_instruct_checkpoint.jsonl")
 MODEL = os.path.expanduser(os.environ.get("PT_MODEL", "Meta-Llama-3.1-8B-Instruct"))
 ITEMS = F.fc_items("best")

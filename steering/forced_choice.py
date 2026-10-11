@@ -36,7 +36,7 @@ from extract_vectors import VEC_DIR
 import personas as P
 import itembank as IB
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 ITER = 4
 
 # First-person register-setter (steered along with everything else; facet-neutral, no leakage).

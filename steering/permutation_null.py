@@ -35,9 +35,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import facets27 as F
 
-REPO = os.path.expanduser("~/Developer/personality-test-27d")
-OUT = os.path.join(REPO, "research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import REPO, OUT, FIGS
 B = 2000                       # null iterations per test
 SPLIT_SEED = 7                 # the exact persona split used in stabilize_n400.analyze()
 

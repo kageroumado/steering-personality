@@ -28,8 +28,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 
 
 def congruence(a, b):

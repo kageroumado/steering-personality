@@ -34,7 +34,7 @@ from extract_vectors import VEC_DIR
 import facets27 as F
 import personas as P  # BANDS
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 PRIME = "I'll be honest about myself.\n\n"   # same register-setter as forced_choice.py
 DOSE = [-2.0, -1.0, 0.0, 1.0, 2.0]
 STRONG_SLOPE, WEAK_SLOPE, MONO = 0.30, 0.10, 0.80

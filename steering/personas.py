@@ -25,7 +25,7 @@ from common import DEFAULT_MODEL, pick_device
 from administer import administer_spi, score_scales, load_spi, keyed_items_for
 from extract_vectors import VEC_DIR
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 ITER = 1
 BANDS = {"late": list(range(-1, -16, -1)), "mid": list(range(-12, -21, -1))}
 # All 5 robust facets (4 pass Tier-0 cleanly; Conformity recovered on late asymmetric sweep).

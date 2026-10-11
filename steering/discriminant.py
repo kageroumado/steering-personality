@@ -22,7 +22,7 @@ import numpy as np
 import itembank as IB
 import forced_choice as FC
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 FACETS = IB.FACETS
 
 

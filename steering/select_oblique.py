@@ -21,7 +21,7 @@ from scipy.stats import pearsonr
 import facets27 as F
 import oblique_items as OI
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 DOSE_KEYS = None  # inferred
 
 

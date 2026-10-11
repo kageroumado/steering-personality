@@ -29,7 +29,7 @@ from administer import (administer_spi, score_scales, load_spi, keyed_items_for,
                         _make_scorer, calibration_cached)
 from extract_vectors import VEC_DIR
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 FACETS = ["SelfControl", "Trust", "Sociability", "Conformity", "Adaptability"]
 BAND_OF = {"SelfControl": "late", "Trust": "mid", "Sociability": "mid",
            "Conformity": "late", "Adaptability": "late"}

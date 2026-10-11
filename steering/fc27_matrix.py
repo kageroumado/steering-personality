@@ -25,7 +25,7 @@ from extract_vectors import VEC_DIR
 import facets27 as F
 import personas as P
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 PRIME = "I'll be honest about myself.\n\n"
 DOSE = [-2.0, -1.0, 0.0, 1.0, 2.0]   # sign-corrected trait dose θ
 

@@ -18,7 +18,7 @@ from repeng import ControlVector, ControlModel, DatasetEntry
 from common import DEFAULT_MODEL, pick_device
 from administer import administer_spi, score_scales, load_spi, keyed_items_for, compute_calibration
 
-VEC_DIR = os.path.expanduser("~/Developer/personality-test-27d/steering/vectors")
+from paths import VEC_DIR
 
 # Llama-3.1-8B has 32 layers; mid-stack band is where linear trait directions live
 # strongest (RepE / persona-vectors). Tunable — open decision §14.1.

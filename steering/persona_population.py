@@ -33,8 +33,7 @@ from common import DEFAULT_MODEL, pick_device
 from fastscore import PrefixScorer
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 MODEL = os.environ.get("PT_MODEL", DEFAULT_MODEL)   # override for second-model replication
 TAG = os.environ.get("PT_TAG", "")                  # output suffix, e.g. "_swallow"
 

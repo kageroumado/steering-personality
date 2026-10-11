@@ -32,7 +32,7 @@ from extract_vectors import VEC_DIR
 import facets27 as F
 import personas as P
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 PRIME = "I'll be honest about myself.\n\n"
 BAND_POS = {"late": set(range(17, 32)), "mid": set(range(12, 21))}
 UNION_BAND = list(range(-1, -21, -1))   # layers 12..31

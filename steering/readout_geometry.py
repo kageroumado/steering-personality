@@ -33,8 +33,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 DOSE = [-2.0, -1.0, 0.0, 1.0, 2.0]
 DOMAIN_COLORS = {"Agreeableness": "#2ca02c", "Conscientiousness": "#1f77b4",
                  "Neuroticism": "#d62728", "Extraversion": "#ff7f0e", "Openness": "#9467bd"}

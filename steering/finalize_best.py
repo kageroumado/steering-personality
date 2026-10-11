@@ -7,7 +7,7 @@ profile measured in reauthor_test.json; every other facet keeps its iter-7 v1 pr
 import os, json
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT
 via = json.load(open(os.path.join(OUT, "viability27.json")))
 rea = json.load(open(os.path.join(OUT, "reauthor_test.json")))["report"]
 

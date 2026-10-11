@@ -18,8 +18,7 @@ from common import load_model, score_options, softmax, DEFAULT_MODEL
 
 SPI_PATH = os.path.expanduser(
     "~/Developer/spi-135-personality-test/build/spi_data.json")
-OUT_DIR = os.path.expanduser(
-    "~/Developer/personality-test-27d/research/loop")
+from paths import OUT as OUT_DIR
 
 # 6-point IPIP accuracy anchors → numeric value
 ANCHORS = [

@@ -27,7 +27,7 @@ from administer import (administer_spi, score_scales, load_spi, keyed_items_for,
                         _make_scorer, calibration_cached)
 from extract_vectors import build_dataset, FACETS, VEC_DIR
 
-OUT_DIR = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
+from paths import OUT as OUT_DIR
 BANDS = {"late": list(range(-1, -16, -1)), "mid": list(range(-12, -21, -1))}
 
 # Per-facet recovery sweeps + bands to probe.

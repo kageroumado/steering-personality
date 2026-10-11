@@ -39,8 +39,7 @@ from repeng import ControlVector
 from extract_vectors import VEC_DIR
 import facets27 as F
 
-OUT = os.path.expanduser("~/Developer/personality-test-27d/research/loop")
-FIGS = os.path.join(OUT, "figs")
+from paths import OUT, FIGS
 os.makedirs(FIGS, exist_ok=True)
 N_LAYERS = 31
 HEADLINE_LAYER = None  # chosen automatically = layer with richest Big-Five recovery
