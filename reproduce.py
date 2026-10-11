@@ -39,9 +39,12 @@ class Checks:
     def __init__(self):
         self.rows, self.failed = [], 0
 
-    def add(self, claim, observed, expected=None, tol=None, note=""):
+    def add(self, claim, observed, expected=None, tol=None, note="", mc_scale=1.0):
+        """mc_scale widens the tolerance for a statistic estimated from random draws,
+        by the ratio of Monte Carlo standard errors, so fewer draws is not a failure."""
         if expected is None:
             expected, tol, note = EXPECTED[claim][0], EXPECTED[claim][1], EXPECTED[claim][2]
+        tol = float(tol) * mc_scale
         ok = abs(float(observed) - float(expected)) <= float(tol)
         self.failed += (not ok)
         self.rows.append((claim, expected, observed, tol, note, ok))
@@ -61,7 +64,7 @@ class Checks:
         return self.failed == 0
 
 
-def offline(checks, B):
+def offline(checks, B, mc=1.0):
     """Recompute the structure statistics and both nulls from the committed scores."""
     import numpy as np
     import permutation_null as pn
@@ -106,10 +109,10 @@ def offline(checks, B):
     col_split = np.array(col_split)
     print(f"\ncolumn-permutation null, {B} draws, {time.time() - t0:.1f}s")
     obs = pn.split_half_congruence(X, K)
-    checks.add("column null: mean", float(col_split.mean()))
-    checks.add("column null: sd", float(col_split.std(ddof=1)))
-    checks.add("column null: z", (obs - col_split.mean()) / col_split.std(ddof=1))
-    checks.add("column null: P(K>=5)", float((np.array(col_K) >= 5).mean()))
+    checks.add("column null: mean", float(col_split.mean()), mc_scale=mc)
+    checks.add("column null: sd", float(col_split.std(ddof=1)), mc_scale=mc)
+    checks.add("column null: z", (obs - col_split.mean()) / col_split.std(ddof=1), mc_scale=mc)
+    checks.add("column null: P(K>=5)", float((np.array(col_K) >= 5).mean()), mc_scale=mc)
 
     rng = np.random.default_rng(303)
     lab = []
@@ -120,8 +123,8 @@ def offline(checks, B):
     # The manuscript reports this null with higher_is_signal=False, so its p is
     # P(null <= observed): the fraction of random relabelings that do no better.
     summary = pn.summarize(obs_b5, lab, higher_is_signal=False)
-    checks.add("label null: mean", float(lab.mean()))
-    checks.add("label null: p-value", float(summary["p_empirical"]))
+    checks.add("label null: mean", float(lab.mean()), mc_scale=mc)
+    checks.add("label null: p-value", float(summary["p_empirical"]), mc_scale=mc)
     print(f"Big-Five label null, {B} draws: observed {obs_b5:.3f}, null mean "
           f"{lab.mean():.3f}, null max {lab.max():.3f}")
     print(f"  {float((lab >= obs_b5).mean()):.3f} of random relabelings reach or beat it, "
@@ -169,7 +172,8 @@ def main():
         sys.exit("numpy and scipy are required: pip install -r requirements.txt")
 
     checks = Checks()
-    offline(checks, 200 if a.quick else 2000)
+    B = 200 if a.quick else 2000
+    offline(checks, B, mc=(2000 / B) ** 0.5)
     if a.with_vectors:
         with_vectors(checks)
 
@@ -180,8 +184,9 @@ def main():
     print("    SPI-135 item bank, which is not redistributable in this repository")
     print("  cross-language replication needs Llama-3.1-Swallow-8B-v0.2")
     if a.quick:
-        print("\n--quick used 200 draws, so the null mean and sd carry more Monte Carlo error")
-        print("than the manuscript's 2000; rerun without --quick before quoting a mismatch.")
+        print("\n--quick used 200 draws instead of 2000, so the tolerance on every"
+              "\nnull-derived row was widened by the ratio of Monte Carlo standard"
+              "\nerrors. Rerun without --quick before reporting a mismatch.")
     sys.exit(0 if ok else 1)
 
 

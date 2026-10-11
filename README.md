@@ -57,19 +57,54 @@ Key scripts, mapped to the paper:
 
 ## Reproducing
 
-Requires Python 3.10+ and a GPU only if you re-extract directions; the extracted `vectors/` are included,
-so the factor analysis and controls run on CPU.
+**Verify the headline numbers in one command, on a CPU, in about a minute.**
+
+```bash
+pip install numpy scipy        # that is all the check itself needs
+python3 reproduce.py           # add --quick for 200 null draws instead of 2000
+```
+
+`reproduce.py` recomputes the eleven numbers below from the committed persona
+scores, using this repository's own functions rather than a second
+implementation, and compares each against the value printed in the manuscript.
+It exits non-zero if any of them differs, so it can be run in CI or by a
+skeptical reader who wants a yes or no.
+
+| What it checks | Paper |
+|---|---|
+| N personas, facets | 409, 27 |
+| Split-half congruence | 0.883 |
+| Congruence to the Big Five | 0.322 |
+| Parallel-analysis factors | 5 |
+| Column-permutation null: mean, sd, z | 0.277, 0.041, 14.6 |
+| P(parallel analysis recovers >= 5 factors under the null) | 0.03 |
+| Big-Five label null: mean, p | 0.258, 0.923 |
+
+Expected output ends with `11/11 checks passed`. Reports of a mismatch are
+welcome as an issue: paste the table.
+
+**What one command cannot check, and why.** Re-extracting the 27 directions
+needs the Llama-3.1-8B weights and a GPU. The cross-instrument control
+additionally needs the SPI-135 item bank, which is not redistributable here.
+The cross-language replication needs Llama-3.1-Swallow-8B-v0.2. `reproduce.py`
+names these in its own output rather than quietly skipping them.
+
+### Re-running the pipeline itself
 
 ```bash
 pip install -r requirements.txt
 export STEERING_MODEL="meta-llama/Meta-Llama-3.1-8B"   # or a local path to the weights
-python steering/native_factors.py       # rebuild the native structure from the steering directions
+python steering/native_factors.py        # rebuild the native structure from the directions
 python steering/permutation_null.py      # the structure-destroying null
 python steering/convergent_validity.py   # cross-instrument + cross-language checks
 ```
 
-Scripts read the base model from `$STEERING_MODEL` (default `meta-llama/Meta-Llama-3.1-8B`). The
-cross-language control uses `tokyotech-llm/Llama-3.1-Swallow-8B-v0.2`.
+Scripts read the base model from `$STEERING_MODEL` (default
+`meta-llama/Meta-Llama-3.1-8B`); the cross-language control uses
+`tokyotech-llm/Llama-3.1-Swallow-8B-v0.2`. Inputs and outputs resolve through
+`steering/paths.py`: an environment variable if set, otherwise this checkout's
+`results/`, `vectors/` and `instrument/`. Override any of them with
+`STEERING_OUT`, `STEERING_VECTORS` or `STEERING_INSTRUMENT`.
 
 ## Data & scope
 
