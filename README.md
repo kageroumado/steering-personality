@@ -27,7 +27,7 @@ random relabeling — and survive a permutation null that rules out the construc
 | Internal reliability (split-half congruence) | **0.88** |
 | Cross-instrument agreement (steering quiz vs SPI-135 Likert) | φ ≈ 0.75 |
 | Cross-finetune / cross-language replication (base vs Swallow) | φ ≈ 0.90 |
-| Congruence to the Big Five | φ ≈ 0.32 (at the random-label floor → orthogonal) |
+| Congruence to the Big Five | φ ≈ 0.32, inside the pre-specified random-label band 0.26–0.33 → orthogonal |
 | Permutation null (structure-destroying) | split-half 0.88 → 0.28, 14.6 SD below observed |
 
 ## Repository layout
